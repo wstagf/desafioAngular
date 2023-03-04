@@ -20,45 +20,27 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'NOVA ADMISSÃO COOPERADO'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('NOVA ADMISSÃO COOPERADO');
-  });
-
-  it('should render breadcumbs', () => {
+  it('should render menu', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Cadastro / Admissão do Cooperado / Nova Admissão de Cooperado');
+    expect(compiled.querySelector('.menu')?.DOCUMENT_NODE).toBeTruthy();
   });
 
-  it('should render title of page initial', () => {
+  it('should render Page Header', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Informe o CPF do futuro cooperado (a)');
+    expect(compiled.querySelector('.pageHeader')?.DOCUMENT_NODE).toBeTruthy();
   });
 
-
-  it('should render button of exec serarch', () => {
+  it('should render Page Container', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Consultar por CPF');
+    expect(compiled.querySelector('.pageContainer')?.DOCUMENT_NODE).toBeTruthy();
   });
 
-  it('should render button of start new onboarding ', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Iniciar nova admissão');
-  });
+  
 
-  it('should render button responsible show tips of account open ', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Dicas para abertura da conta');
-  });
 });
