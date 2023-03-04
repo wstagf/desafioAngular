@@ -1,0 +1,120 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "cpf": "08498609038",
+            "nome": "Paulo Osvaldo Nunes",
+            "status_cpf": "active",
+            "accounts": [
+                {
+                    "id": 1,
+                    "number": "557932-4",
+                    "type": "saving"
+                },
+                {
+                    "id": 2,
+                    "number": "778461-8",
+                    "type": "current"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "cpf": "15250620345",
+            "nome": "Eduarda Tânia da Paz",
+            "status_cpf": "active",
+            "accounts": [
+                {
+                    "id": 3,
+                    "number": "276532-4",
+                    "type": "saving"
+                },
+                {
+                    "id": 4,
+                    "number": "994691-8",
+                    "type": "current"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "cpf": "25484469139",
+            "nome": "Kauê Nicolas Lopes",
+            "status_cpf": "inative",
+            "accounts": [
+                {
+                    "id": 5,
+                    "number": "496832-4",
+                    "type": "saving"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "cpf": "07201410954",
+            "nome": "André Thiago César Bernardes",
+            "status_cpf": "active",
+            "accounts": [
+                {
+                    "id": 6,
+                    "number": "843811-4",
+                    "type": "saving"
+                },
+                {
+                    "id": 7,
+                    "number": "240401-8",
+                    "type": "current"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "cpf": "75630407651",
+            "nome": "Rosângela Emily Sophia Corte Real",
+            "status_cpf": "active",
+            "accounts": [
+                {
+                    "id": 8,
+                    "number": "699112-4",
+                    "type": "saving"
+                },
+                {
+                    "id": 9,
+                    "number": "433761-8",
+                    "type": "current"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "cpf": "86006838583",
+            "nome": "Jorge Diogo Aragão",
+            "status_cpf": "active",
+            "accounts": [
+                {
+                    "id": 10,
+                    "number": "740701-8",
+                    "type": "current"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "cpf": "07498559676",
+            "nome": "Gabriel Raimundo José Nascimento",
+            "status_cpf": "active",
+            "accounts": [
+                {
+                    "id": 11,
+                    "number": "370502-4",
+                    "type": "saving"
+                },
+                {
+                    "id": 12,
+                    "number": "983221-8",
+                    "type": "current"
+                }
+            ]
+        }
+    ]
+}
