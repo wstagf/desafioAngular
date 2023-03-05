@@ -27,4 +27,9 @@ describe('LogoComponent', () => {
   it('deve criar o component', () => {
     expect(component).toBeTruthy();
   });
+
+  it('image should have width of 60px', () => {
+    let image: HTMLElement = fixture.nativeElement.querySelector("img");
+    expect(image.getAttribute("width")).toEqual("60"); 
+  });
 });
