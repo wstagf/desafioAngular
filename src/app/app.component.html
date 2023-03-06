@@ -1,8 +1,10 @@
 <div class="main">
   <alios-menu></alios-menu>
   <div class="content">
-    <div class="pageHeader">page header</div>
-    <div class="pageContainer">page container</div>
-    <div class="pageFooter">page header</div>
+    <alios-page-header></alios-page-header>
+    <div class="pageContainer">
+      <router-outlet></router-outlet>
+    </div>
+    <alios-page-footer></alios-page-footer>
   </div>
 </div>

@@ -38,7 +38,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    console.log(compiled)
     expect(compiled.querySelector('alios-menu')?.DOCUMENT_NODE).toBeTruthy();
   });
 
@@ -47,8 +46,7 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    console.log(compiled)
-    expect(compiled.querySelector('alios-spage-header')?.DOCUMENT_NODE).toBeTruthy();
+    expect(compiled.querySelector('alios-page-header')?.DOCUMENT_NODE).toBeTruthy();
   });
 
   it('should render Page Container', () => {
@@ -58,6 +56,11 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.pageContainer')?.DOCUMENT_NODE).toBeTruthy();
   });
 
-  
+  it('should render Page Footer', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('alios-page-footer')?.DOCUMENT_NODE).toBeTruthy();
+  });
 
 });
