@@ -33,11 +33,22 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.menu')?.DOCUMENT_NODE).toBeTruthy();
   });
 
+
+  it('should render Menu', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    console.log(compiled)
+    expect(compiled.querySelector('alios-menu')?.DOCUMENT_NODE).toBeTruthy();
+  });
+
+
   it('should render Page Header', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.pageHeader')?.DOCUMENT_NODE).toBeTruthy();
+    console.log(compiled)
+    expect(compiled.querySelector('alios-spage-header')?.DOCUMENT_NODE).toBeTruthy();
   });
 
   it('should render Page Container', () => {
