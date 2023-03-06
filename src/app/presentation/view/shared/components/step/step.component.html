@@ -1,0 +1,7 @@
+<div class="line"></div>
+<div class="container">
+    <div *ngFor="let step of steps; index as i; " class="step" (click)="tap!(i)">
+        <span class="circle" [ngClass]="{'active': stepIndex===i}"></span>
+        <span class="stepText" [ngClass]="{'active': stepIndex===i}">{{ step }}</span>
+    </div>
+</div>

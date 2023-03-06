@@ -1,0 +1,54 @@
+@import '../../../../../../variables.scss';
+
+.container {
+    display: flex;
+}
+
+.line {
+    min-height: 2px;
+    background-color: $cinza-2;
+    height: 2px;
+    z-index: 1;
+    top: 12px;
+    position: relative;
+}
+
+.step {
+    min-width: 50px;
+    min-height: 50px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid $cinza-2;
+    background-color: $cinza-2;
+}
+
+.circle.active {
+    background-color: $branco;
+    border: 1px solid $alios-azul;
+}
+
+.stepText {
+    margin-top: 14px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $cinza-2;
+}
+
+.stepText.active {
+    color: $alios-azul;
+}
