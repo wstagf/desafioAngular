@@ -32,7 +32,6 @@ describe('PageHeaderComponent', () => {
     const fixture = TestBed.createComponent(PageHeaderComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    console.log(compiled)
     expect(compiled.querySelector('.title')?.DOCUMENT_NODE).toBeTruthy();
   });
 
@@ -40,7 +39,6 @@ describe('PageHeaderComponent', () => {
     const fixture = TestBed.createComponent(PageHeaderComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    console.log(compiled)
     expect(compiled.querySelector('alios-bread-crumbs-item')?.DOCUMENT_NODE).toBeTruthy();
   });
 
@@ -48,7 +46,6 @@ describe('PageHeaderComponent', () => {
     const fixture = TestBed.createComponent(PageHeaderComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    console.log(compiled)
     expect(compiled.querySelector('alios-actions-area')?.DOCUMENT_NODE).toBeTruthy();
   });
 

@@ -1,0 +1,21 @@
+@import "../../../../../../variables.scss";
+
+.container {
+    padding: 13px 25px;
+    height: 48px;
+    border: 1px solid;
+    border-radius: 2px;
+    flex-basis: fit-content;
+}
+
+.styleWhite {
+    border-color: $alios-azul;
+    background-color: $branco;
+    color: $alios-azul;
+}
+
+.styleBlue {
+    border-color: $alios-azul;
+    background-color: $alios-azul;
+    color: $branco;
+}

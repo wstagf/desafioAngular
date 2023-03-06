@@ -31,7 +31,6 @@ describe('ActionsAreaComponent', () => {
     const fixture = TestBed.createComponent(ActionsAreaComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    console.log(compiled)
     expect(compiled.querySelector('alios-notifications-alert')?.DOCUMENT_NODE).toBeTruthy();
   });
 
@@ -39,7 +38,6 @@ describe('ActionsAreaComponent', () => {
     const fixture = TestBed.createComponent(ActionsAreaComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    console.log(compiled)
     expect(compiled.querySelector('button-company-area')?.DOCUMENT_NODE).toBeTruthy();
   });
 
@@ -47,7 +45,6 @@ describe('ActionsAreaComponent', () => {
     const fixture = TestBed.createComponent(ActionsAreaComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    console.log(compiled)
     expect(compiled.querySelector('alios-perfil-config')?.DOCUMENT_NODE).toBeTruthy();
   });
 

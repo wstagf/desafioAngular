@@ -14,6 +14,10 @@ import { ActionsAreaComponent } from './pageHeader/components/actions-area/actio
 import { ButtonCompanyComponent } from './pageHeader/components/button-company/button-company.component';
 import { NotificationsAlertComponent } from './pageHeader/components/notifications-alert/notifications-alert.component';
 import { PerfilConfigComponent } from './pageHeader/components/perfil-config/perfil-config.component';
+import { PageFooterComponent } from './pageFooter/page-footer.component';
+import { ButtonComponent } from './components/button/button.component';
+import { BlueButtonComponent } from './components/blue-button/blue-button.component';
+import { WhiteButtonComponent } from './components/white-button/white-button.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { PerfilConfigComponent } from './pageHeader/components/perfil-config/per
     ActionsAreaComponent,
     ButtonCompanyComponent, 
     NotificationsAlertComponent,
-    PerfilConfigComponent
+    PerfilConfigComponent,
+    PageFooterComponent,
+    ButtonComponent,
+    BlueButtonComponent,
+    WhiteButtonComponent
   ],
   exports: [
     LogoComponent,
@@ -46,7 +54,11 @@ import { PerfilConfigComponent } from './pageHeader/components/perfil-config/per
     ActionsAreaComponent,
     ButtonCompanyComponent,
     NotificationsAlertComponent,
-    PerfilConfigComponent
+    PerfilConfigComponent,
+    PageFooterComponent,
+    ButtonComponent,
+    BlueButtonComponent,
+    WhiteButtonComponent
   ],
   imports: [
     CommonModule

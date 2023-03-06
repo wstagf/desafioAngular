@@ -1,0 +1,33 @@
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+
+ 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';  
+import { PageFooterComponent } from './page-footer.component';
+
+describe('PageFooterComponent', () => {
+  let component: PageFooterComponent;
+  let fixture: ComponentFixture<PageFooterComponent>;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ PageFooterComponent ],
+      imports: [ 
+        BrowserAnimationsModule
+      ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(PageFooterComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('deve criar o component', () => {
+    expect(component).toBeTruthy();
+  });
+
+ 
+  
+});
