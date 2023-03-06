@@ -14,9 +14,7 @@ export class CoperatedControllerService implements ICoperatedController {
     private coperatedUseCase: ICoperatedUseCase
   ) { }
  
-
-  
-  getData(cpf: String): Observable<CoperatedEntity> {
-    return this.coperatedUseCase.getData(cpf);
+  getCooperatedByCPF(cpf: string): Observable<CoperatedEntity> {
+    return this.coperatedUseCase.getCooperatedByCPF(cpf);
   }
 }

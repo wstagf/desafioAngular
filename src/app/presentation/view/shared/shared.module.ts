@@ -23,7 +23,7 @@ import { OnboardPageComponent } from '../pages/onboard/onboard-page.component';
 import { StartStepComponent } from '../pages/onboard/components/start-step/start-step.component';
 import { DocumentStepComponent } from '../pages/onboard/components/document-step/document-step.component';
 import { RegisterDataStepComponent } from '../pages/onboard/components/register-data-step/register-data-step.component';
-import { OnboardStepComponent } from '../pages/onboard/components/onboard-step/onboard-step.component';
+import { OnboardStepComponent } from '../pages/onboard/components/onboard-step/onboard-step.component'; 
 
 @NgModule({
   declarations: [
@@ -50,7 +50,7 @@ import { OnboardStepComponent } from '../pages/onboard/components/onboard-step/o
     StartStepComponent,
     DocumentStepComponent,
     RegisterDataStepComponent,
-    OnboardStepComponent
+    OnboardStepComponent, 
   ],
   exports: [
     LogoComponent,
@@ -76,13 +76,10 @@ import { OnboardStepComponent } from '../pages/onboard/components/onboard-step/o
     StartStepComponent,
     DocumentStepComponent,
     RegisterDataStepComponent,
-    OnboardStepComponent
-  ],
+    OnboardStepComponent, 
+  ],  
   imports: [
     CommonModule
   ],
-  entryComponents: [
-     
-  ]
 })
 export class SharedModule { }

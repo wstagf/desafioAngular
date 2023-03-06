@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
 })
 export class StartStepComponent {  
 
-  cpf : string = "";
+  cpf: any = "";
 
   searchByCPF( ) {
     alert(this.cpf)

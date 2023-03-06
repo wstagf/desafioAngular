@@ -9,7 +9,7 @@ import { SharedModule } from './shared/shared.module';
   imports: [
     CommonModule,
     PagesModule,
-    SharedModule
+    SharedModule,
   ],
   exports: [
     PagesModule
