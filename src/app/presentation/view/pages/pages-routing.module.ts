@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { OnboardPageComponent } from './onboard/onboard-page.component';
 
 const routes: Routes = [
-  { path: '**', redirectTo: '', pathMatch: 'full' }
+  { path: '**', component:  OnboardPageComponent}
 ];
 
 @NgModule({

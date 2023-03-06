@@ -1,0 +1,9 @@
+<div class="container">
+    <alios-step [steps]="steps" [(stepIndex)]="stepIndex" [tap]="tap"></alios-step>
+</div>
+<div class="content">
+    <alios-start-step *ngIf="stepIndex === 0"></alios-start-step>
+    <alios-document-step *ngIf="stepIndex === 1"></alios-document-step>
+    <alios-register-data-step *ngIf="stepIndex === 2"></alios-register-data-step>
+    <alios-onboard-step *ngIf="stepIndex === 3"></alios-onboard-step>
+</div>
