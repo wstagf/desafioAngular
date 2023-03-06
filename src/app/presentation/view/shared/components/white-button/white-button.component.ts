@@ -13,4 +13,7 @@ export class WhiteButtonComponent {
 
   @Input() 
   public tap: Function | undefined;  
+
+  @Input() 
+  height: number = 48;
 }

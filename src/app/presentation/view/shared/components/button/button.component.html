@@ -1,3 +1,4 @@
-<div class="container" (click)="tap!()" [ngClass]="{'styleBlue': variant==='blue', 'styleWhite': variant==='white'}">
+<div class="container" (click)="tap!()" [ngClass]="{'styleBlue': variant==='blue', 'styleWhite': variant==='white'}"
+    [style.height.px]="heightButton">
     {{label}}
 </div>

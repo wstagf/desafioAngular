@@ -11,5 +11,8 @@ export class BlueButtonComponent {
   label: String = '';
 
   @Input() 
-  public tap: Function | undefined;  
+  tap: any;  
+
+  @Input() 
+  height: number = 48;
 }

@@ -15,4 +15,7 @@ export class ButtonComponent {
 
   @Input() 
   public tap: Function | undefined;  
+
+  @Input() 
+  heightButton: number = 100;
 }
