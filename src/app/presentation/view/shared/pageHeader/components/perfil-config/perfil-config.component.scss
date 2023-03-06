@@ -1,0 +1,16 @@
+@import "../../../../../../../variables.scss";
+
+.avatar {
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    border: 2px solid $alios-azul;
+}
+
+.avatar img {
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    background: no-repeat center;
+    background-size: cover;
+}

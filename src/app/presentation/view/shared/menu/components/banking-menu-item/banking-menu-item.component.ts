@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
 })
 export class BankinkMenuItemComponent {
  @Input()
- size: number = 75;
+ size: number = 60;
 }

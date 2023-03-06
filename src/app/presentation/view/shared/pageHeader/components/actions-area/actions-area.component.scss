@@ -1,0 +1,13 @@
+* {
+    margin: 0px 10px;
+}
+
+.list-itens {
+    display: flex;
+    align-items: center;
+}
+
+
+.list-itens * {
+    display: flex;
+}

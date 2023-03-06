@@ -1,0 +1,26 @@
+@import "../../../../../variables.scss";
+
+.container {
+    height: 89px;
+    background-color: $branco;
+    display: flex;
+    align-items: center;
+}
+
+.titleArea {
+    flex: 1;
+    margin-left: 24px;
+}
+
+.actionsArea {
+    width: fit-content;
+    margin-right: 20px;
+}
+
+.title {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: $preto-alios;
+}

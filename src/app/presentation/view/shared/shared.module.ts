@@ -8,6 +8,12 @@ import { MenuItemComponent } from './menu/components/menu-item/menu-item.compone
 import { SearchMenuItemComponent } from './menu/components/search-item/search-menu-item.component';
 import { StarMenuItemComponent } from './menu/components/start-item/star-menu-item.component';
 import { MenuComponent } from './menu/menu.component';
+import { PageHeaderComponent } from './pageHeader/page-header.component'; 
+import { BreadCumbsComponent } from './pageHeader/components/bread-cumbs/bread-crumbs.component';
+import { ActionsAreaComponent } from './pageHeader/components/actions-area/actions-area.component';
+import { ButtonCompanyComponent } from './pageHeader/components/button-company/button-company.component';
+import { NotificationsAlertComponent } from './pageHeader/components/notifications-alert/notifications-alert.component';
+import { PerfilConfigComponent } from './pageHeader/components/perfil-config/perfil-config.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { MenuComponent } from './menu/menu.component';
     MenuItemComponent,
     SearchMenuItemComponent,
     StarMenuItemComponent,
-    MenuComponent
+    MenuComponent,
+    PageHeaderComponent,
+    BreadCumbsComponent,
+    ActionsAreaComponent,
+    ButtonCompanyComponent, 
+    NotificationsAlertComponent,
+    PerfilConfigComponent
   ],
   exports: [
     LogoComponent,
@@ -28,7 +40,13 @@ import { MenuComponent } from './menu/menu.component';
     MenuItemComponent,
     SearchMenuItemComponent,
     StarMenuItemComponent,
-    MenuComponent
+    MenuComponent,
+    PageHeaderComponent,
+    BreadCumbsComponent,
+    ActionsAreaComponent,
+    ButtonCompanyComponent,
+    NotificationsAlertComponent,
+    PerfilConfigComponent
   ],
   imports: [
     CommonModule
