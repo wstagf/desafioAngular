@@ -7,4 +7,16 @@ import { Component, Input } from '@angular/core';
   providers: []
 })
 export class StartStepComponent {  
+
+  cpf : string = "";
+
+  searchByCPF( ) {
+    alert(this.cpf)
+  }
+
+  changeCPF(e: any) {
+    console.log(e);
+  }
+
+
 }

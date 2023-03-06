@@ -18,6 +18,12 @@ import { PageFooterComponent } from './pageFooter/page-footer.component';
 import { ButtonComponent } from './components/button/button.component';
 import { BlueButtonComponent } from './components/blue-button/blue-button.component';
 import { WhiteButtonComponent } from './components/white-button/white-button.component';
+import { StepComponent } from './components/step/step.component';
+import { OnboardPageComponent } from '../pages/onboard/onboard-page.component';
+import { StartStepComponent } from '../pages/onboard/components/start-step/start-step.component';
+import { DocumentStepComponent } from '../pages/onboard/components/document-step/document-step.component';
+import { RegisterDataStepComponent } from '../pages/onboard/components/register-data-step/register-data-step.component';
+import { OnboardStepComponent } from '../pages/onboard/components/onboard-step/onboard-step.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +44,13 @@ import { WhiteButtonComponent } from './components/white-button/white-button.com
     PageFooterComponent,
     ButtonComponent,
     BlueButtonComponent,
-    WhiteButtonComponent
+    WhiteButtonComponent,
+    OnboardPageComponent,
+    StepComponent,
+    StartStepComponent,
+    DocumentStepComponent,
+    RegisterDataStepComponent,
+    OnboardStepComponent
   ],
   exports: [
     LogoComponent,
@@ -58,7 +70,13 @@ import { WhiteButtonComponent } from './components/white-button/white-button.com
     PageFooterComponent,
     ButtonComponent,
     BlueButtonComponent,
-    WhiteButtonComponent
+    WhiteButtonComponent,
+    OnboardPageComponent,
+    StepComponent,
+    StartStepComponent,
+    DocumentStepComponent,
+    RegisterDataStepComponent,
+    OnboardStepComponent
   ],
   imports: [
     CommonModule

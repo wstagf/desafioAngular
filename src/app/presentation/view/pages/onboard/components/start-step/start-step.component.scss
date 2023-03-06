@@ -1,0 +1,50 @@
+@import '../../../../../../../variables.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.label {
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: $preto-alios;
+}
+
+.actions {
+    display: flex;
+
+}
+
+.actions>input {
+    margin-right: 10px;
+    border: 1px solid #889499;
+    border-radius: 2px;
+    width: 270px;
+}
+
+.actions>alios-blue-button {
+    margin-left: 10px;
+}

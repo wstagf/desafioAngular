@@ -1,1 +1,11 @@
-start-step
+<div class="container">
+    <h1>Informe o CPF do futuro cooperado (a)</h1>
+    <span class="subtitle">Se necessário, você poderá duplicar uma conta existente ou pausar e retomar este cadastro
+        futuramente.
+        Digite apenas os números (sem pontos ou traços). </span>
+    <span class="label">CPF</span>
+    <div class="actions">
+        <input type="text" (change)="changeCPF($event)">
+        <alios-blue-button [label]="'Consular por CPF'" [tap]="searchByCPF" [height]="34"></alios-blue-button>
+    </div>
+</div>
